@@ -245,6 +245,8 @@ h1, h2, h3, h4, h5,
   .site-logo a {
     color: #000; }
 
+
+
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
@@ -559,6 +561,10 @@ h1, h2, h3, h4, h5,
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
+    
+    #navbutton{
+      color: #51BE78;
+     }
 
 /* Blocks */
 .intro-section {
@@ -566,7 +572,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
   .intro-section, .intro-section .container .row {
     height: 50vh;
-    min-height: 700px; }
+    min-height: 400px; }
   .intro-section:before {
     content: "";
     position: absolute;
@@ -1086,3 +1092,8 @@ h1, h2, h3, h4, h5,
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+button{
+  border: 0px;
+  font-weight: normal;
+}
